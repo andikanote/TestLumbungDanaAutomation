@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>TestLumbungdana</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TargetWebsite</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.jakartanotebook.com/<datalist><option>https://www.jakartanotebook.com/</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">#TC1</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>xpath=//img[@alt='Mata Bor']<datalist><option>xpath=//img[@alt='Mata Bor']</option><option>xpath=//div[2]/div[2]/a/img</option><option>css=img[alt="Mata Bor"]</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='Product Image']<datalist><option>xpath=//img[@alt='Product Image']</option><option>xpath=//div[3]/div/a/img</option><option>css=img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stok tersedia'])[5]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stok tersedia'])[5]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp. 70.000'])[1]/preceding::span[2]</option><option>xpath=//*/text()[normalize-space(.)='5 lokasi lain.']/parent::*</option><option>xpath=//div[6]/span</option><option>css=span.link</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/binoax-mata-bor-carbide-tip-wood-metal-hole-cut-5-pcs-epc-pit-20p-golden')]<datalist><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/binoax-mata-bor-carbide-tip-wood-metal-hole-cut-5-pcs-epc-pit-20p-golden')]</option><option>xpath=//dd[4]/div/ul/li/a</option><option>css=a.no-print-href</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/75/63/31662/39/55/mata-bor-carbide-tip-wood-metal-hole-cut-5pcs-golden-2.jpg')]<datalist><option>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/75/63/31662/39/55/mata-bor-carbide-tip-wood-metal-hole-cut-5pcs-golden-2.jpg')]</option><option>xpath=//div[2]/div[2]/a/img</option></datalist></td><td></td>
+</tr>
+<tr><td>goBack</td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[4]/div[3]/div/a/img<datalist><option>xpath=//div[4]/div[3]/div/a/img</option><option>css=a[title="Deko Mata Bor Power Drill HSS Steel 6 PCS - DW1369 - Golden"] &gt; img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stok tersedia'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Terjual habis per 16 Aug 2021'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xpress Cikupa'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Remind me']/parent::*</option><option>xpath=//dd[5]/div/a/span</option><option>css=a.product-list__stock.product-list__stock--sold-out.product-list__stock-reminder.popup-remind &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=popup-remind-submit-btn<datalist><option>id=popup-remind-submit-btn</option><option>xpath=//button[@id='popup-remind-submit-btn']</option><option>xpath=//form[@id='popup-remind-form']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cikupa'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Utara'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[2]</option><option>xpath=//*/text()[normalize-space(.)='Remind Me!']/parent::*</option><option>xpath=//button</option><option>css=#popup-remind-submit-btn</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//button[@type='button']<datalist><option>xpath=//button[@type='button']</option><option>xpath=//div[@id='popup-remind']/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Remind Me!'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Anda belum mengisi email.'])[1]/following::button[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Jabodetabek'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='×']/parent::*</option><option>xpath=//div/button</option><option>css=button.mfp-close</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add to cart<datalist><option>link=Add to cart</option><option>xpath=//a[contains(text(),'Add to cart')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='hemat Rp. 8.400,- (28%)'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Simpan ke Watchlist'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Add to cart']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/add_to_cart/42632')]</option><option>xpath=//section/div[2]/div[3]/a</option><option>css=a.button.button--cta</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[2]/input</option><option>xpath=//span[2]/input</option><option>css=input.qtyCart</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[2]/input</option><option>xpath=//span[2]/input</option><option>css=input.qtyCart</option></datalist></td><td>2</td>
+</tr>
+<tr><td>click</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[2]/input</option><option>xpath=//span[2]/input</option><option>css=input.qtyCart</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label[2]<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tersedia'])[1]/following::label[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pribadi'])[1]/following::label[1]</option><option>xpath=//label[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=cart-form<datalist><option>id=cart-form</option><option>xpath=//form[@id='cart-form']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login / Daftar'])[1]/following::form[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]/following::form[1]</option><option>xpath=//div[3]/form</option><option>css=#cart-form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div[2]/div/button/span<datalist><option>xpath=//form[@id='cart-form']/div[2]/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Belanja'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[3]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='exciting offer!'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Lanjut ke Pembayaran']/parent::*</option><option>xpath=//div[2]/div/button/span</option><option>css=button.button.button--cta.button--lg &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">#TC2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.jakartanotebook.com/<datalist><option>https://www.jakartanotebook.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='Mouse Pilihan']<datalist><option>xpath=//img[@alt='Mouse Pilihan']</option><option>xpath=//div[2]/div/a/img</option><option>css=img[alt="Mouse Pilihan"]</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='Product Image']<datalist><option>xpath=//img[@alt='Product Image']</option><option>xpath=//div[3]/div/a/img</option><option>css=img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_local<datalist><option>win_ser_local</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td>
+</tr>
+<tr><td>goBack</td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[2]/div[3]/div/a/img<datalist><option>xpath=//div[2]/div[3]/div/a/img</option><option>css=a[title="AZZOR Wireless Gaming Mouse RGB 7 Color 2000 DPI - D9 - Black"] &gt; img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/40/779/35071/2/55/azzor-wireless-gaming-mouse-rgb-7-color-2000-dpi-d9-black-127.jpg')]<datalist><option>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/40/779/35071/2/55/azzor-wireless-gaming-mouse-rgb-7-color-2000-dpi-d9-black-127.jpg')]</option><option>xpath=//div[3]/a/img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='Sovawin Smooth Mouse Pad - MP004 - Black']<datalist><option>xpath=//img[@alt='Sovawin Smooth Mouse Pad - MP004 - Black']</option><option>xpath=//a/div/img</option><option>css=img[alt="Sovawin Smooth Mouse Pad - MP004 - Black"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/30/63/12975/2/55/smooth-mouse-pad-black-69.jpg')]<datalist><option>xpath=//img[contains(@src,'https://www.jakartanotebook.com/images/products/30/63/12975/2/55/smooth-mouse-pad-black-69.jpg')]</option><option>xpath=//div[5]/a/img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add to cart<datalist><option>link=Add to cart</option><option>xpath=//a[contains(text(),'Add to cart')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='hemat Rp. 5.800,- (58%)'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Simpan ke Watchlist'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Add to cart']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/add_to_cart/19472')]</option><option>xpath=//section/div[2]/div[3]/a</option><option>css=a.button.button--cta</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[2]/input</option><option>xpath=//span[2]/input</option><option>css=input.qtyCart</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[2]/div[2]/label/i[2]<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[2]/div[2]/label/i[2]</option><option>xpath=//div[2]/div[2]/label/i[2]</option><option>css=div.cart__dv__block.cart__dv--cod &gt; div.cart__dv__content &gt; label.cart__dv__list &gt; i.fa.fa-circle-o</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[3]/div[2]/label[2]/span<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[3]/div[2]/label[2]/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ada stok kosong'])[4]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Barat'])[2]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tersedia'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[2]/preceding::span[1]</option><option>xpath=//div[3]/div[2]/label[2]/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div[2]/div/button/span<datalist><option>xpath=//form[@id='cart-form']/div[2]/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Belanja'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='exciting offer!'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Lanjut ke Pembayaran']/parent::*</option><option>xpath=//div[2]/div/button/span</option><option>css=button.button.button--cta.button--lg &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=My Cart<datalist><option>link=My Cart</option><option>xpath=//div[@id='header']/header/div/div[2]/div/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Essential Oil'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login / Daftar'])[1]/preceding::a[1]</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/cart')]</option><option>xpath=//header/div/div[2]/div/a</option><option>css=a.Button__StyledButton-sc-1l0qx1m-2.ieGcCN</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Delete<datalist><option>link=Delete</option><option>xpath=//a[contains(text(),'Delete')]</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[4]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xpress Cikupa'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pilih Jenis Pengiriman'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pengiriman Online'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Delete']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/remove_item_cart?item=19472')]</option><option>xpath=//span[4]/a</option><option>css=span.cart__item__delete &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='JakartaNotebook.com']<datalist><option>xpath=//img[@alt='JakartaNotebook.com']</option><option>xpath=//div[@id='header']/header/div/div/div/div[2]/a/img</option><option>xpath=//img</option><option>css=img[alt="JakartaNotebook.com"]</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_local<datalist><option>win_ser_local</option></datalist></td><td></td>
+</tr>
+<tr><td>close</td><td>win_ser_local<datalist><option>win_ser_local</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">#TC3</td></tr>
+</thead>
+<tbody>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">#TC4</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.jakartanotebook.com/<datalist><option>https://www.jakartanotebook.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='TaffSPORT']<datalist><option>xpath=//img[@alt='TaffSPORT']</option><option>xpath=//div[5]/div/div[2]/div/a/img</option><option>css=img[alt="TaffSPORT"]</option></datalist></td><td></td>
+</tr>
+<tr><td>selectWindow</td><td>win_ser_1<datalist><option>win_ser_1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//div[2]/div[3]/div/a/img<datalist><option>xpath=//div[2]/div[3]/div/a/img</option><option>css=a[title="TaffSPORT Kantong Air Portable Camping Water Storage 10 Liter - ST-116 - Transparent"] &gt; img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='TaffSPORT Kantong Air Portable Camping Water Storage 20 Liter - ST-216 - Transparent']<datalist><option>xpath=//img[@alt='TaffSPORT Kantong Air Portable Camping Water Storage 20 Liter - ST-216 - Transparent']</option><option>xpath=//li[2]/a/div/img</option><option>css=img[alt="TaffSPORT Kantong Air Portable Camping Water Storage 20 Liter - ST-216 - Transparent"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Lihat Detail<datalist><option>link=Lihat Detail</option><option>xpath=//a[contains(text(),'Lihat Detail')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stok toko habis? Pre-order Sekarang'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp. 50.000'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Lihat Detail']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/pre-order')]</option><option>xpath=//dl/div/div/a</option><option>css=div.detail__preorder__container &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>goBack</td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add to cart<datalist><option>link=Add to cart</option><option>xpath=//a[contains(text(),'Add to cart')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='hemat Rp. 17.500,- (35%)'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Simpan ke Watchlist'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Add to cart']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/add_to_cart/31444')]</option><option>xpath=//section/div[2]/div[3]/a</option><option>css=a.button.button--cta</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input<datalist><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input</option><option>xpath=//div[4]/div[2]/div/span[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input<datalist><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input</option><option>xpath=//div[4]/div[2]/div/span[2]/input</option></datalist></td><td>2</td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input<datalist><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input</option><option>xpath=//div[4]/div[2]/div/span[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input<datalist><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[4]/div[2]/div/span[2]/input</option><option>xpath=//div[4]/div[2]/div/span[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=//form[@id='cart-form']/div[2]/div/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Belanja'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[3]/following::button[1]</option><option>xpath=//div[2]/div/button</option><option>css=button.button.button--cta.button--lg</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label/span<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pengiriman via Sicepat dan JNE'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pengiriman Online'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ada stok kosong'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Pribadi']/parent::*</option><option>xpath=//label/span</option><option>css=label.cart__dv__list &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Delete<datalist><option>link=Delete</option><option>xpath=//a[contains(text(),'Delete')]</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[4]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xpress Cikupa'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DHOME Timbangan Dapur Digital Kitchen Scale USB Rechargeable 15kg 1g - JJ210299 - Silver'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Online'])[2]/preceding::a[3]</option><option>xpath=//*/text()[normalize-space(.)='Delete']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/remove_item_cart?item=19472')]</option><option>xpath=//span[4]/a</option><option>css=span.cart__item__delete &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label[2]/i[2]<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div/div[2]/label[2]/i[2]</option><option>xpath=//label[2]/i[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div[2]/div/button/span<datalist><option>xpath=//form[@id='cart-form']/div[2]/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Belanja'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[3]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='exciting offer!'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Lanjut ke Pembayaran']/parent::*</option><option>xpath=//div[2]/div/button/span</option><option>css=button.button.button--cta.button--lg &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">#TC5</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.jakartanotebook.com/<datalist><option>https://www.jakartanotebook.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]//*[name()='svg'][1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Cart'])[1]//*[name()='svg'][1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Essential Oil'])[1]/following::*[name()='svg'][1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login / Daftar'])[1]/preceding::*[name()='svg'][2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/preceding::*[name()='svg'][2]</option><option>css=svg.Icon___StyledSvg-rhuc26-0.dpbOWU.Header___StyledShoppingCartIcon-y4d4ki-19.cCRcGm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//img[@alt='JakartaNotebook.com']<datalist><option>xpath=//img[@alt='JakartaNotebook.com']</option><option>xpath=//div[@id='header']/header/div/div/div/div[2]/a/img</option><option>xpath=//img</option><option>css=img[alt="JakartaNotebook.com"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td>Kursi</td>
+</tr>
+<tr><td>sendKeys</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>click</td><td>xpath=//div[2]/div[3]/div/a/img<datalist><option>xpath=//div[2]/div[3]/div/a/img</option><option>css=a[title="Cover Jok Kursi Mobil Bahan Kulit - 6685 - Black"] &gt; img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td>Monitor</td>
+</tr>
+<tr><td>sendKeys</td><td>name=key<datalist><option>name=key</option><option>xpath=//input[@name='key']</option><option>xpath=//div[@id='header']/header/div/div/div[2]/div/form/div/div/div/input</option><option>xpath=//input</option><option>css=input[name="key"]</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>click</td><td>xpath=//div[2]/div[3]/div/a/img<datalist><option>xpath=//div[2]/div[3]/div/a/img</option><option>css=a[title="Universal Dual Monitor Arm Bracket Vesa Mount 17-30 Inch - NB-F160 - Black"] &gt; img[alt="Product Image"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Lihat Detail<datalist><option>link=Lihat Detail</option><option>xpath=//a[contains(text(),'Lihat Detail')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stok toko habis? Pre-order Sekarang'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tidak tersedia di lokasi lain.'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp. 680.000'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Lihat Detail']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/pre-order')]</option><option>xpath=//dl/div/div/a</option><option>css=div.detail__preorder__container &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pre-Order'])[1]/following::h1[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Pre-Order'])[1]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::h1[1]</option><option>xpath=//*/text()[normalize-space(.)='SEGERA']/parent::*</option><option>xpath=//h1</option><option>css=h1.po__container__title</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add to cart<datalist><option>link=Add to cart</option><option>xpath=//a[contains(text(),'Add to cart')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='hemat Rp. 73.500,- (11%)'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Simpan ke Watchlist'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Add to cart']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/add_to_cart/53646')]</option><option>xpath=//section/div[2]/div[3]/a</option><option>css=a.button.button--cta</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[2]/div[2]/div/span[2]/input</option><option>xpath=//div[2]/div[2]/div/span[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=//input[@value='1']<datalist><option>xpath=//input[@value='1']</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[2]/div[2]/div/span[2]/input</option><option>xpath=//div[2]/div[2]/div/span[2]/input</option></datalist></td><td>2</td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[2]/div[2]/div/span[4]<datalist><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div[2]/div[2]/div/span[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xpress Cikupa'])[2]/following::span[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Toko Jakarta Utara'])[2]/following::span[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Updating'])[1]/preceding::span[1]</option><option>xpath=//div[2]/div[2]/div/span[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Delete<datalist><option>link=Delete</option><option>xpath=//a[contains(text(),'Delete')]</option><option>xpath=//form[@id='cart-form']/div/div[2]/div/div/div/div[2]/div/span[4]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sisa 5 pcs'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Xpress Cikupa'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Universal Dual Monitor Arm Bracket Vesa Mount 17-30 Inch - NB-F160 - Black'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='OMMT08BK'])[1]/preceding::a[3]</option><option>xpath=//*/text()[normalize-space(.)='Delete']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.jakartanotebook.com/transaction/remove_item_cart?item=42632')]</option><option>xpath=//span[4]/a</option><option>css=span.cart__item__delete &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[2]/div[2]/label/i[2]<datalist><option>xpath=//form[@id='cart-form']/div/div[3]/div/div/div/div/div[2]/div[2]/label/i[2]</option><option>xpath=//div[2]/div[2]/label/i[2]</option><option>css=div.cart__dv__block.cart__dv--cod &gt; div.cart__dv__content &gt; label.cart__dv__list &gt; i.fa.fa-circle-o</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=//form[@id='cart-form']/div[2]/div/button/span<datalist><option>xpath=//form[@id='cart-form']/div[2]/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Lanjut Belanja'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[3]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='exciting offer!'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Lanjut ke Pembayaran']/parent::*</option><option>xpath=//div[2]/div/button/span</option><option>css=button.button.button--cta.button--lg &gt; span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
